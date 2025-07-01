@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background:#F6F6F6
-
+    background: #f0eed8;
 }
 
 .header {
@@ -10,7 +9,7 @@ body {
 }
 
 header {
-    background: #FFFFFF
+    background: #6B9667;
     
 }
 
@@ -44,8 +43,23 @@ header::after {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 7px;
+}
+
+a:hover {
+    color: #1d311b;
+}
+
+.headingRight .apply {
+    background-color: #F8E16F;
+    color: black;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.apply:hover {
+    box-shadow: 5px 5px 5px #395637;
 }
 
 nav ul {
@@ -56,12 +70,12 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 60px;
     padding-top: 25px;
 }
 
 nav a {
-    color: #488125;
+    color: #ffffff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -69,24 +83,23 @@ nav a {
 
 .container2 {
     height: 799px;
-
+    display: flex;
 }
 
 
-.container2 h1 {
-    color: #1C7138;
+.container2 div h1 {
+    color: #1c5b31;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 60px;
     width: 540px;
-    height: 170px;
     padding-left: 55px;
     padding-top: 226px;
 }
 
-.container2 p {
+.container2 div p {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -94,17 +107,30 @@ nav a {
     padding-left: 55px;
     padding-bottom: 226px;
     font-size: 30px;
+    width: 540px;
+}
+
+.container2 img {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 699px;
+    width: 900px; 
+    border-radius: 50px;
 }
 
 
 .container3 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: white;
     height: 411px;
 }
 
 .container3 h1 {
-    padding-top: 60px;;
+    padding-top: 60px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -113,14 +139,14 @@ nav a {
 }
 
 .container3 p {
+    padding-bottom: 60px;
     color:#F78480;
-    padding-top: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
-
+    width: 1150px;
 }
 
 .container4 {
@@ -130,7 +156,7 @@ nav a {
 }
 
 .container4 h4 {
-    color: #1C7138;
+    color: #1c5b31;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -144,6 +170,9 @@ nav a {
     background: white;
 }
 
-.footer { 
-    background: #F8E16F
+footer { 
+    background: #F8E16F;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
