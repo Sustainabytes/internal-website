@@ -10,7 +10,6 @@ body {
 
 header {
     background: #6B9667;
-    
 }
 
 header::after {
@@ -44,7 +43,7 @@ header::after {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding-top: 7px;
+    padding-top: 12px;
 }
 
 a:hover {
@@ -82,8 +81,10 @@ nav a {
 }
 
 .container2 {
-    height: 799px;
+    height: 800px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -95,7 +96,7 @@ nav a {
     font-style: normal;
     font-size: 60px;
     width: 540px;
-    padding-left: 55px;
+    padding-left: 70px;
     padding-top: 226px;
 }
 
@@ -104,17 +105,16 @@ nav a {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    padding-left: 55px;
+    padding-left: 70px;
     padding-bottom: 226px;
     font-size: 30px;
     width: 540px;
 }
 
 .container2 img {
-    margin-top: 50px;
-    margin-left: 50px;
-    height: 699px;
-    width: 900px; 
+    margin-left: 40px;
+    height: 650px;
+    width: 800px; 
     border-radius: 50px;
 }
 
@@ -150,20 +150,39 @@ nav a {
 }
 
 .container4 {
-    height: 754px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
     padding-right: 54px;
     text-align: right;
+    overflow: hidden;
+    color: #1c5b31;
+}
+
+.container4 h1 {
+    color: black;
+    font-size: 3rem;
 }
 
 .container4 h4 {
-    color: #1c5b31;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 24px;
-    
+}
 
+.container4 p {
+    width: 670px;
+    font-size: 2rem;
+}
+
+.container4 img {
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
 }
 
 .container5 { 

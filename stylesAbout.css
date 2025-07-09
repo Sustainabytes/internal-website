@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: #f0eed8;
+    color: #1c5b31;
 }
 
 .header {
@@ -49,7 +50,6 @@ header::after {
 
 a:hover {
     color: #1d311b;
-    text-shadow: 2px 2px 5px #395637;
 }
 
 .active {
@@ -88,4 +88,38 @@ nav a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 img {
+    margin-top: 50px;
+    height: 500px;
+    width: 90vw; 
+    border-radius: 50px;
+}
+
+.container2 h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.container2 p {
+    margin-top: 5px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 1.5rem;
+    width: 90vw; 
 }
