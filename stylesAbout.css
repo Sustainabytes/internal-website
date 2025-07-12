@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #f0eed8;
+    background: #F8E16F;
     color: #1c5b31;
 }
 
@@ -10,8 +10,7 @@ body {
 }
 
 header {
-    background: #6B9667;
-    
+    background: #ffffff;
 }
 
 header::after {
@@ -52,18 +51,19 @@ a:hover {
     color: #1d311b;
 }
 
+.headingRight .apply {
+    background-color: #F8E16F;
+    color: black;
+    padding: 20px;
+    transition: transform 0.2s ease;
+    border-radius: 35px;
+}
+
 .active {
     color: #1d311b;
     background-color: #95bb91;
     padding: 5px;
     border-radius: 10px;
-}
-
-.headingRight .apply {
-    background-color: #F8E16F;
-    color: black;
-    padding: 20px;
-    border-radius: 35px;
 }
 
 .apply:hover {
@@ -84,11 +84,37 @@ nav li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #1c5b31;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
+.section-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    white-space: nowrap;     
+    width: fit-content; 
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-button:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+}
+  
+.section-button.outline {
+    background-color: #F8E16F;
+    color: black;
+    border: 2px solid white;
+}  
 
 .container2 {
     display: flex;
@@ -98,28 +124,36 @@ nav a {
 }
 
 .container2 img {
-    margin-top: 50px;
-    height: 500px;
+    margin-top: 10px;
+    height: 450px;
     width: 90vw; 
     border-radius: 50px;
 }
 
-.container2 h1 {
+h1 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .container2 p {
-    margin-top: 5px;
-    text-align: center;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    text-align: center;
     font-weight: 400;
-    font-style: normal;
     color: black;
     font-size: 1.5rem;
-    width: 90vw; 
+    width: 85vw;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.container3 { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    height: 650px;
 }

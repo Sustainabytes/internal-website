@@ -47,7 +47,7 @@ header::after {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding-top: 12px;
+    padding-top: 3px;
 }
 
 a:hover {
@@ -92,7 +92,6 @@ nav a {
     align-items: center;
 }
 
-
 .container2 div h1 {
     color: #1c5b31;
     font-family: "Inter", sans-serif;
@@ -117,7 +116,7 @@ nav a {
 }
 
 .container2 img {
-    margin-left: 40px;
+    margin-left: 50px;
     height: 650px;
     width: 800px; 
     border-radius: 50px;
