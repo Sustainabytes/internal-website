@@ -172,8 +172,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px; 
-    margin-left: 30px;
+    gap: 220px; 
+    margin-left: 15px;
 }
 
 .mission {
@@ -188,76 +188,90 @@ h1 {
     position: absolute;
     width: 180px;
     height: 180px;
-    background-color: #F78480;
-    border: 3px solid #cf5e6b ;
+    border: 3px solid #eb8e8b;
     z-index: 1;
 }
 
 .one .petal:nth-of-type(1) {
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
     border-radius: 60% 60% 10% 60%; /* top left, right, bottom left, right */
-    transform: rotateZ(45deg) skew(5deg, 5deg) translate(-95px, -95px);
+    transform: rotateZ(45deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 .one .petal:nth-of-type(2) {
+    background: linear-gradient(to bottom left, #F78480, #ffe5e4);
     border-radius: 60% 60% 60% 10%;
-    transform: rotateZ(28deg) skew(-5deg, -5deg) translate(95px, -95px);
+    transform: rotateZ(28deg) skew(-8deg, -8deg) translate(95px, -95px);
 }
 .one .petal:nth-of-type(3) {
+    background: linear-gradient(to top right, #F78480, #ffe5e4);
     border-radius: 60% 10% 60% 60%;
-    transform: rotateZ(-8deg) skew(-5deg, -5deg) translate(-95px, 95px);
+    transform: rotateZ(-8deg) skew(-8deg, -8deg) translate(-95px, 95px);
 }
 .one .petal:nth-of-type(4) {
+    background: linear-gradient(to top left, #F78480, #ffe5e4);
     border-radius: 10% 60% 60% 60%;
-    transform: rotateZ(10deg) skew(5deg, 5deg) translate(95px, 95px);
+    transform: rotateZ(10deg) skew(8deg, 8deg) translate(95px, 95px);
 }
 .one .petal:nth-of-type(5) {
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
     border-radius: 60% 60% 10% 60%;
-    transform: rotateZ(333deg) skew(5deg, 5deg) translate(-95px, -95px);
+    transform: rotateZ(333deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 
 
 
 .two .petal:nth-of-type(1) {
-    border-radius: 60% 60% 10% 60%; /* top left, right, bottom left, right */
-    transform: rotateZ(45deg) skew(5deg, 5deg) translate(-95px, -95px);
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
+    border-radius: 60% 60% 10% 60%; 
+    transform: rotateZ(45deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 .two .petal:nth-of-type(2) {
+    background: linear-gradient(to bottom left, #F78480, #ffe5e4);
     border-radius: 60% 60% 60% 10%;
-    transform: rotateZ(28deg) skew(-5deg, -5deg) translate(95px, -95px);
+    transform: rotateZ(28deg) skew(-8deg, -8deg) translate(95px, -95px);
 }
 .two .petal:nth-of-type(3) {
+    background: linear-gradient(to top right, #F78480, #ffe5e4);
     border-radius: 60% 10% 60% 60%;
-    transform: rotateZ(-8deg) skew(-5deg, -5deg) translate(-95px, 95px);
+    transform: rotateZ(-8deg) skew(-8deg, -8deg) translate(-95px, 95px);
 }
 .two .petal:nth-of-type(4) {
+    background: linear-gradient(to top left, #F78480, #ffe5e4);
     border-radius: 10% 60% 60% 60%;
-    transform: rotateZ(10deg) skew(5deg, 5deg) translate(95px, 95px);
+    transform: rotateZ(10deg) skew(8deg, 8deg) translate(95px, 95px);
 }
 .two .petal:nth-of-type(5) {
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
     border-radius: 60% 60% 10% 60%;
-    transform: rotateZ(333deg) skew(5deg, 5deg) translate(-95px, -95px);
+    transform: rotateZ(333deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 
 
 
 .three .petal:nth-of-type(1) {
-    border-radius: 60% 60% 10% 60%; /* top left, right, bottom left, right */
-    transform: rotateZ(45deg) skew(5deg, 5deg) translate(-95px, -95px);
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
+    border-radius: 60% 60% 10% 60%; 
+    transform: rotateZ(45deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 .three .petal:nth-of-type(2) {
+    background: linear-gradient(to bottom left, #F78480, #ffe5e4);
     border-radius: 60% 60% 60% 10%;
-    transform: rotateZ(28deg) skew(-5deg, -5deg) translate(95px, -95px);
+    transform: rotateZ(28deg) skew(-8deg, -8deg) translate(95px, -95px);
 }
 .three .petal:nth-of-type(3) {
+    background: linear-gradient(to top right, #F78480, #ffe5e4);
     border-radius: 60% 10% 60% 60%;
-    transform: rotateZ(-8deg) skew(-5deg, -5deg) translate(-95px, 95px);
+    transform: rotateZ(-8deg) skew(-8deg, -8deg) translate(-95px, 95px);
 }
 .three .petal:nth-of-type(4) {
+    background: linear-gradient(to top left, #F78480, #ffe5e4);
     border-radius: 10% 60% 60% 60%;
-    transform: rotateZ(10deg) skew(5deg, 5deg) translate(95px, 95px);
+    transform: rotateZ(10deg) skew(8deg, 8deg) translate(95px, 95px);
 }
 .three .petal:nth-of-type(5) {
+    background: linear-gradient(to bottom right, #F78480, #ffe5e4);
     border-radius: 60% 60% 10% 60%;
-    transform: rotateZ(333deg) skew(5deg, 5deg) translate(-95px, -95px);
+    transform: rotateZ(333deg) skew(8deg, 8deg) translate(-95px, -95px);
 }
 
 .center {
@@ -267,15 +281,15 @@ h1 {
     width: 90px;
     height: 90px;
     border: 3px solid #fbd154 ;
-    background: #F8E16F;
+    background: radial-gradient(#fff6ca, #efd862);
     border-radius: 50%;
     z-index: 1;
 }
 
 .stem {
     position: absolute;
-    background-color: #95bb91;
-    border: 3px solid #5e8e58 ;
+    background: linear-gradient(to top left, #81ad7b, #c6e6c3);
+    border: 3px solid #82b87b ;
     height: 300px;
     width: 10px;
     left: 82px;
@@ -284,8 +298,8 @@ h1 {
 
 .leftleaf {
     position: absolute;
-    background-color: #95bb91;
-    border: 3px solid #5e8e58 ;
+    background: linear-gradient(to bottom right, #95bb91, #c6e6c3);
+    border: 3px solid #82b87b ;
     height: 150px;
     width: 150px;
     border-radius: 0% 100% 0% 100%;
@@ -296,8 +310,8 @@ h1 {
 
 .rightleaf {
     position: absolute;
-    background-color: #95bb91;
-    border: 3px solid #5e8e58 ;
+    background: linear-gradient(to bottom left, #95bb91, #c6e6c3);
+    border: 3px solid #82b87b ;
     height: 200px;
     width: 130px;
     border-radius: 100% 0% 100% 0%;
@@ -308,13 +322,13 @@ h1 {
 
 .pillar {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
     height: 230px;
     width: 500px;
-    padding: 10px 15px;
+    padding: 20px 20px;
     font-size: 1.55rem;
     top: 3px;
-    left: -150px;
+    left: -160px;
     z-index: 1;
 }
 
