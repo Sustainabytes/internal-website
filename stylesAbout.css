@@ -123,6 +123,14 @@ nav a {
     align-items: center;
 }
 
+.container3 .vector {
+    position: absolute;
+    width: 580px; 
+    height: 45px;
+    top: 950px;
+    right: 500px;
+}
+
 .container2 img {
     margin-top: 10px;
     height: 450px;
@@ -254,10 +262,10 @@ h1 {
 
 .center {
     position: absolute;
-    top: -5px;
-    right: -20px;
-    width: 260px;
-    height: 180px;
+    top: 40px;
+    right: 60px;
+    width: 90px;
+    height: 90px;
     border: 3px solid #fbd154 ;
     background: #F8E16F;
     border-radius: 50%;
@@ -294,6 +302,32 @@ h1 {
     width: 130px;
     border-radius: 100% 0% 100% 0%;
     top: 280px;
-    left: 80px;
+    left: 90px;
     z-index: 1;
+}
+
+.pillar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 230px;
+    width: 500px;
+    padding: 10px 15px;
+    font-size: 1.55rem;
+    top: 3px;
+    left: -150px;
+    z-index: 1;
+}
+
+.pillar h2 {
+  color: #1f5121;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+}
+
+.pillar p {
+  color: #2f6232;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  width: 480px;
+  font-size: 1.6rem;
 }
