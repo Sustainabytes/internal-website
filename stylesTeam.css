@@ -1,16 +1,22 @@
 body {
     margin: 0;
-    background: #F8E16F;
-    color: #1c5b31;
+    background: #93C4A6;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
+body, h1, h4, p, a {
+     font-family: 'Open Sans', sans-serif;
+}
+
+
 .header {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
 }
 
 header {
-    background: #ffffff;
+  background: #93C4A6;
 }
 
 header::after {
@@ -20,43 +26,52 @@ header::after {
 }
 
 .logo {
-    float: left;
-    width: 83px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  float: left;
+  width: 83px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .headingLeft {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30px;
-    padding-top: 5px;
-    position: absolute;
-    left: 70px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 10px;
+  position: absolute;
+  left: 150px;
 }
 
 .headingRight {
-    float: right;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    padding-top: 7px;
+  float: right;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 25px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 a:hover {
     color: #1d311b;
-}
-
-.headingRight .apply {
-    background-color: #F8E16F;
-    color: black;
-    padding: 20px;
-    transition: transform 0.2s ease;
-    border-radius: 35px;
 }
 
 .active {
@@ -71,24 +86,6 @@ a:hover {
     box-shadow: 5px 5px 5px #395637;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 60px;
-    padding-top: 25px;
-}
-
-nav a {
-    color: #1c5b31;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
 
 .section-button {
     display: inline-block;
@@ -366,32 +363,65 @@ h1 {
     margin-left: 20px;
 }
 
+.section-button {
+  display: inline-block;
+  transform-origin: center;
+  background-color: #EBCAE8;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 12px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  white-space: nowrap;     
+  width: fit-content; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-button:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.section-button.outline {
+  background-color: #EBCAE8;
+  color: black;
+  border: 2px solid white;
+}  
+
 footer {
-    background: white;
-    padding: 40px 20px;
-    text-align: center;
+  background: #F4F7EC;
+  text-align: center;
+  padding: 125px 80px 80px 80px;
+
+  background-image: url('assets/circles.png');
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+  background-position: center;
 }
 
 .footer-icons {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 
 .footer-icons img {
-    width: 32px;
-    height: 32px;
-    transition: transform 0.2s ease;
-    cursor: pointer;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
 .footer-icons img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .footer-text {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0 0 0;
 }

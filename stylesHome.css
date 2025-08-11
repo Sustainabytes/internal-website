@@ -69,6 +69,10 @@ nav a {
   font-weight: 600;
 }
 
+a:hover {
+    color: #1d311b;
+}
+
 .container2 {
   height: 650px;
   display: flex;
