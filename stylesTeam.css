@@ -39,7 +39,7 @@ header::after {
   font-size: 25px;
   padding-top: 10px;
   position: absolute;
-  left: 150px;
+  left: 170px;
 }
 
 .headingRight {
@@ -85,7 +85,6 @@ a:hover {
     text-shadow: none;
     box-shadow: 5px 5px 5px #395637;
 }
-
 
 .section-button {
     display: inline-block;

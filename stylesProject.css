@@ -39,7 +39,7 @@ header::after {
   font-size: 25px;
   padding-top: 10px;
   position: absolute;
-  left: 150px;
+  left: 170px;
 }
 
 .headingRight {
@@ -73,6 +73,7 @@ nav a {
 a:hover {
     color: #1d311b;
 }
+
 .active {
     color: #1d311b;
     background-color: #95bb91;

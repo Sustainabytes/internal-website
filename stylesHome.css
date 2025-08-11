@@ -29,6 +29,7 @@ header::after {
   width: 83px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 0px;
 }
 
 .headingLeft {
@@ -38,7 +39,7 @@ header::after {
   font-size: 25px;
   padding-top: 10px;
   position: absolute;
-  left: 150px;
+  padding-left: 30px;
 }
 
 .headingRight {
@@ -73,6 +74,17 @@ a:hover {
     color: #1d311b;
 }
 
+.active {
+    color: #1d311b;
+    background-color: #95bb91;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.apply:hover {
+    text-shadow: none;
+    box-shadow: 5px 5px 5px #395637;
+}
 .container2 {
   height: 650px;
   display: flex;
