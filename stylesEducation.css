@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ header::after {
     font-size: 30px;
     padding-top: 5px;
     position: absolute;
-    left: 120px;
+    left: 70px;
 }
 
 .headingRight {
