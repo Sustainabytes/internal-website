@@ -97,6 +97,7 @@ a:hover {
 .divider {
   margin-bottom: 180px;
   margin-right: 130px;
+  z-index: 2;
 }
 
 .container2 div h4 {
@@ -129,7 +130,7 @@ a:hover {
   margin: 10px 0 40px 0;
 }
 
-.container2 img {
+.container2 .leftImg img {
   position: absolute;
   height: 730px;
   width: 980px; 
@@ -137,20 +138,20 @@ a:hover {
   top: 120px;
 }
 
-.container2 .left {
+.container2 .right {
   position: absolute;
   height: 400px;
   width: 250px; 
   top: 450px;
-  left: 1350px;
+  right: 0px;
 }
 
-.container2 .leftS {
+.container2 .rightS {
   position: absolute;
   height: 350px;
   width: 450px; 
   top: 380px;
-  left: 1140px;
+  right: 0px;
 }
 
 .container3 { 
@@ -346,7 +347,7 @@ footer {
 
   background-image: url('assets/circles.png');
   background-repeat: no-repeat; 
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
 }
 
