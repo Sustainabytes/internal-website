@@ -72,20 +72,20 @@ nav a {
 }
 
 a:hover {
-    color: #1d311b;
+    color: #EBCAE8;
 }
+
 .active {
-    color: #1d311b;
-    background-color: #95bb91;
+    color: #EBCAE8;
     padding: 5px;
     border-radius: 10px;
+    text-decoration-line: underline;
 }
 
 .apply:hover {
     text-shadow: none;
-    box-shadow: 5px 5px 5px #395637;
+    box-shadow: 5px 5px 5px #81ad7b;
 }
-
 
 .section-button {
     display: inline-block;
