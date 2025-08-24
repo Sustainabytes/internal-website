@@ -16,7 +16,7 @@ body, h1, h4, p, a {
 }
 
 header {
-  background: #93C4A6;
+   background: transparent;
 }
 
 header::after {
@@ -117,7 +117,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 720px;
+    height: 823px;
 
     background-image: url('assets/FlowerBack.png');
     background-repeat: no-repeat; 
@@ -344,18 +344,164 @@ a:hover {
 } */
 
 .container4 { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px;
-    background-color: #F4F7EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  padding: 50px;
+  position: relative;
+  background-color: #F4F7EC;
 }
 
-.container4 h1, .container5 h1, .container6 h1 {
-    font-size: 3rem;
-    margin: 0 0 20px 0;
-    color: black;
+.container4 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  position: absolute;
+  top: 40%;
+  left: 50%;
 }
+
+.container4 h2 {
+  color: #93C4A6;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5rem;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+.container4 img { 
+  size: 80% auto;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #93C4A6;
+  height: 1200px;
+  padding: 50px;
+  padding-top: 8%;
+  padding-bottom: 7%;
+
+  background-image: url('assets/teamAssets/teamContainer5Background.png');
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.container5 h1 {
+  color: white;
+  font-size: 60px;
+  margin: 0 0 30px 0;
+  font-weight: 800;
+  font-style: italic; 
+  text-shadow: 0px 5px 0px black;
+}
+
+.images5 {
+  padding-bottom: 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.images5 img {
+  width: 302px;
+  height: 390px;
+  border-radius: 20px;
+}
+
+.mail5 {
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18rem;
+  margin: -270px -200px 45px 0;
+}
+
+.mail5 img:hover{
+  transform:scale(1.1);
+}
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #F4F7EC;
+
+  padding-top: 4%;
+  padding-bottom: 7%;
+
+  background-image: url('assets/teamAssets/teamContainer6Background.png');
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.container6 h1 {
+  color: #93C4A6;
+  font-size: 60px;
+  margin: 0 0 30px 0;
+  font-weight: 900;
+  font-style: italic; 
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #1E1E1E;
+}
+
+
+.images6WebDev {
+  padding-bottom: 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.images6WebDev img {
+  width: 302px;
+  height: 390px;
+  border-radius: 20px;
+}
+
+.images6Edu {
+  padding-bottom: 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.images6Edu img {
+  width: 302px;
+  height: 390px;
+  border-radius: 20px;
+}
+
+
+/*
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 823px;
+
+    background-image: url('assets/FlowerBack.png');
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    background-position: center;
+}
+*/
+
+
 
 .section-button {
   display: inline-block;
