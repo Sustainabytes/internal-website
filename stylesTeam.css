@@ -383,9 +383,8 @@ a:hover {
   align-items: center;
   text-align: center;
   background: #93C4A6;
-  height: 1200px;
-  padding: 50px;
-  padding-top: 8%;
+  height: 1000px;
+  padding-top: 15%;
   padding-bottom: 7%;
 
   background-image: url('assets/teamAssets/teamContainer5Background.png');
@@ -393,6 +392,7 @@ a:hover {
   background-size: 100% auto;
   background-position: center;
 }
+
 
 .container5 h1 {
   color: white;
@@ -403,31 +403,167 @@ a:hover {
   text-shadow: 0px 5px 0px black;
 }
 
-.images5 {
-  padding-bottom: 6%;
+
+.images5Operations {
+  padding-bottom: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   margin: 0 0 20px 0;
 }
 
-.images5 img {
+.headshot img {
   width: 302px;
   height: 390px;
   border-radius: 20px;
 }
 
-.mail5 {
-  z-index: 10;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 18rem;
-  margin: -270px -200px 45px 0;
+.container5Tianyi {
+  position: relative;
 }
 
-.mail5 img:hover{
+.mail5Tianyi {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Tianyi img:hover{
   transform:scale(1.1);
 }
+
+.container5Kyle {
+  position: relative;
+}
+
+.mail5Kyle {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Kyle img:hover{
+  transform:scale(1.1);
+}
+
+.container5Mikael {
+  position: relative;
+}
+
+.mail5Mikael {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Mikael img:hover{
+  transform:scale(1.1);
+}
+
+.container5Reiley {
+  position: relative;
+}
+
+.mail5Reiley {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Reiley img:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+
+.images5Outreach {
+  padding-bottom: 19%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.container5Jerry {
+  position: relative;
+}
+
+.mail5Jerry {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Jerry img:hover{
+  transform:scale(1.1);
+}
+
+.container5Kalia {
+  position: relative;
+}
+
+.mail5Kalia {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Kalia img:hover{
+  transform:scale(1.1);
+}
+
+.container5Kaavya {
+  position: relative;
+}
+
+.mail5Kaavya {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Kaavya img:hover{
+  transform:scale(1.1);
+}
+
+.container5Aish {
+  position: relative;
+}
+
+.mail5Aish {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail5Aish img:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+
+
+
 
 .container6 {
   display: flex;
@@ -456,7 +592,6 @@ a:hover {
   -webkit-text-stroke-color: #1E1E1E;
 }
 
-
 .images6WebDev {
   padding-bottom: 6%;
   display: grid;
@@ -465,11 +600,59 @@ a:hover {
   margin: 0 0 20px 0;
 }
 
-.images6WebDev img {
-  width: 302px;
-  height: 390px;
-  border-radius: 20px;
+
+
+.container6Connie {
+  position: relative;
 }
+
+.mail6Connie {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail6Connie img:hover{
+  transform:scale(1.1);
+}
+
+.container6Winnie {
+  position: relative;
+}
+
+.mail6Winnie {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail6Winnie img:hover{
+  transform:scale(1.1);
+}
+
+.container6Cinnie {
+  position: relative;
+}
+
+.mail6Cinnie {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail6Cinnie img:hover{
+  transform:scale(1.1);
+}
+
+
+
+
 
 .images6Edu {
   padding-bottom: 6%;
@@ -479,11 +662,39 @@ a:hover {
   margin: 0 0 20px 0;
 }
 
-.images6Edu img {
-  width: 302px;
-  height: 390px;
-  border-radius: 20px;
+.container6Lisa {
+  position: relative;
 }
+
+.mail6Lisa {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail6Lisa img:hover{
+  transform:scale(1.1);
+}
+
+.container6Karen {
+  position: relative;
+}
+
+.mail6Karen {
+  position: absolute;
+  height: 1px;
+  z-index: 10;
+  top: 310px;
+  left: 230px;
+}
+
+.mail6Karen img:hover{
+  transform:scale(1.1);
+}
+
+
 
 
 /*
