@@ -404,10 +404,17 @@ a:hover {
 }
 
 
+
+
+
+
+
+
+
 .images5Operations {
   padding-bottom: 5%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin: 0 0 20px 0;
 }
@@ -466,21 +473,6 @@ a:hover {
   transform:scale(1.1);
 }
 
-.container5Reiley {
-  position: relative;
-}
-
-.mail5Reiley {
-  position: absolute;
-  height: 1px;
-  z-index: 10;
-  top: 310px;
-  left: 230px;
-}
-
-.mail5Reiley img:hover{
-  transform:scale(1.1);
-}
 
 
 
@@ -657,26 +649,11 @@ a:hover {
 .images6Edu {
   padding-bottom: 6%;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin: 0 0 20px 0;
 }
 
-.container6Lisa {
-  position: relative;
-}
-
-.mail6Lisa {
-  position: absolute;
-  height: 1px;
-  z-index: 10;
-  top: 310px;
-  left: 230px;
-}
-
-.mail6Lisa img:hover{
-  transform:scale(1.1);
-}
 
 .container6Karen {
   position: relative;
@@ -687,7 +664,7 @@ a:hover {
   height: 1px;
   z-index: 10;
   top: 310px;
-  left: 230px;
+  left: 340px;
 }
 
 .mail6Karen img:hover{
